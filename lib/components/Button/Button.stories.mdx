@@ -1,0 +1,62 @@
+import { Meta, Story, Canvas, Props } from "@storybook/addon-docs/blocks";
+import Button from "./index";
+
+<Meta title="Core/Button/Docs" component={Button} />
+
+### Button
+
+[Go to props](#props)
+
+A Button is one of the most basic components present in a web page. It is, usually,
+the principal action element that enables interaction between user and the page making
+really important. So it's essential to define its different meaning and usages by its design
+With the correct use of the different design of a button, the user can easily guess the action
+they're going to trigger.
+
+A Button can have different:
+
+- shapes (contained, outlined, text)
+- colors (primary, secondary, success, warning, alert)
+- sizes (sm, md, lg).
+
+### Variant: Contained
+
+<Canvas>
+  <Story id="core-button--contained-primary" />
+  <Story id="core-button--contained-secondary" />
+  <Story id="core-button--contained-success" />
+  <Story id="core-button--contained-warning" />
+  <Story id="core-button--contained-alert" />
+</Canvas>
+
+### Variant: Outlined
+
+<Canvas>
+  <Story id="core-button--outlined-primary" />
+  <Story id="core-button--outlined-secondary" />
+  <Story id="core-button--outlined-success" />
+  <Story id="core-button--outlined-warning" />
+  <Story id="core-button--outlined-alert" />
+</Canvas>
+
+### Variant: Text
+
+<Canvas>
+  <Story id="core-button--text-primary" />
+  <Story id="core-button--text-secondary" />
+  <Story id="core-button--text-success" />
+  <Story id="core-button--text-warning" />
+  <Story id="core-button--text-alert" />
+</Canvas>
+
+### Sizes
+
+<Canvas>
+  <Story id="core-button--small" />
+  <Story id="core-button--medium" />
+  <Story id="core-button--large" />
+</Canvas>
+
+### Props
+
+<Props of={Button} />

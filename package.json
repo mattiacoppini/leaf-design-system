@@ -1,0 +1,71 @@
+{
+  "name": "@leaf-design-system/core",
+  "version": "1.0.0",
+  "description": "Leaf design system's core components",
+  "main": "lib/index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006 -c .storybook",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattiacoppini/leaf-design-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattiacoppini/leaf-design-system/issues"
+  },
+  "homepage": "https://github.com/mattiacoppini/leaf-design-system#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "@babel/runtime": "^7.7.2",
+    "@mdx-js/loader": "^1.6.16",
+    "@storybook/addon-actions": "^6.0.18",
+    "@storybook/addon-docs": "^6.0.19",
+    "@storybook/addon-essentials": "^6.0.19",
+    "@storybook/addon-knobs": "^6.0.18",
+    "@storybook/addon-storysource": "^6.0.19",
+    "@storybook/react": "^6.0.18",
+    "babel-jest": "^26.3.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-styled-components": "^1.10.6",
+    "core-js": "^3.6.5",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "file-loader": "^6.0.0",
+    "husky": "^4.2.5",
+    "jest": "^25.1.0",
+    "jest-enzyme": "^7.1.2",
+    "jest-styled-components": "^7.0.3",
+    "lint-staged": "^10.2.13",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-is": "^16.13.1",
+    "styled-components": "^5.2.0",
+    "url-loader": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.2.0"
+  }
+}
